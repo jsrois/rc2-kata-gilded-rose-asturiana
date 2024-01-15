@@ -1,4 +1,4 @@
-class Shop {
+export class Shop {
     constructor(items = []) {
         this.items = items;
     }
@@ -37,7 +37,7 @@ class Shop {
     }
 }
 
-class ItemAsturiano {
+export class ItemAsturiano {
     constructor(name, diasParaVenta, quality) {
         this.name = name;
         this.diasParaVenta = diasParaVenta;
